@@ -1,0 +1,3 @@
+void testing(int a, int b) {
+	c = a + 5 * 7 + (b = a = c(77));
+}

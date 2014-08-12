@@ -1,0 +1,3 @@
+regex : regex '|' factor | factor ;
+factor : factor sub | sub ;
+sub : sub '?' | sub '+' | sub '*' | sub char | char | '(' regex ')' ;

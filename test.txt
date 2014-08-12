@@ -1,0 +1,7 @@
+grammar : productions ;
+productions : productions production
+            | production ;
+production : symbol ':' expansions ';' ;
+expansions : expansions '|' tokens ;
+tokens : tokens token | ;
+token : symbol | char ;
